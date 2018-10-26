@@ -1,0 +1,41 @@
+Pin Map for Kwark Board v0.1 (PKP-3000)
+
+Kwark Board		AVR ATMega 32U4						Arduino Micro
+-----------------------------------------------------------------
+Function		Pin	Port	ADC		PWM				Pin
+-----------------------------------------------------------------
+				10	PB2								MOSI
+				8	PB0								SS
+				21	PD3								D0 TX1
+				20	PD2								D1 RX1
+				13									RST
+													GND
+SF				19	PD1								D2
+~DIS			18	PD0				OC0B			D3
+				25	PD4		ADC8					D4
+				31	PC6				OC3A OC4A		D5
+				27	PD7		ADC10	OC4D			D6
+				1	PE6								D7
+				28	PB4		ADC11					D8
+M1.PWM			29	PB5		ADC12	OC1A ~OC4B		D9
+M2.PWM			30	PB6		ADC13	OC1B OC4B		D10
+				12	PB7				OC1C OC0A		D11
+M1.DIR			26	PD6		ADC9	~OC4D			D12
+
+M2.DIR			32	PC7				OC4A			D13
+													3V3
+				42			AREF					REF
+PWR.FB			36	PF7		ADC7					A0
+M1.FB			37	PF6		ADC6					A1
+M2.FB			38	PF5		ADC5					A2
+				39	PF4		ADC4					A3
+				40	PF1		ADC1					A4
+				41	PF0		ADC0					A5
+													NC
+													NC
+													5V
+				13									RST
+													GND
+													VIN
+				11	PB3								MISO
+				9	PB1								SCK
