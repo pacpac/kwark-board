@@ -66,7 +66,7 @@ void setup()
 void loop()
 {
   float K = map(analogRead(K_POT_PIN),0, 1023, 0.0, 10.0);
-
+  unsigned int position = qtrrc.readLine(sensorValues);
   int err = K * (3500 - position);
   
   digitalWrite(M1_DIR_PIN, 1);
